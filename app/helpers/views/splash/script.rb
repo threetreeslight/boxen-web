@@ -41,6 +41,11 @@ module Views
         ghe_url = ENV['GITHUB_ENTERPRISE_URL']
         ghe_url ? "#{ghe_url}/api/v3" : "https://api.github.com"
       end
+
+      def script_boxen_option
+        ENV['SCRIPT_BOXEN_OPTION']
+      end
+
     end
   end
 end

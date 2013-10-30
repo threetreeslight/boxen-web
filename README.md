@@ -27,6 +27,7 @@ heroku config:set \
   SECONDARY_MESSAGE="Do a thing before running the command below." \
   SECRET_TOKEN="your cookie signing token here" \
   USER_ORG="your org name" \
+  SCRIPT_BOXEN_OPTION="`script/boxen` command options (e.g. `--no-fde` )" \
   GITHUB_ENTERPRISE_URL="https://github.<your_company>.com" \
   REF="master"
 git push heroku master
